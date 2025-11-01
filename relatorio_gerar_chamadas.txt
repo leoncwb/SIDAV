@@ -1,0 +1,17 @@
+=== Comparação entre scripts gerar_chamadas_* ===
+
+Arquivo                                  | Linhas | Tamanho(KB)  | Última modificação 
+------------------------------------------------------------------------------------------
+gerar_chamadas_jitter_pjsua.py           | 85     | 2.9          | 2025-04-26 14:54:28
+gerar_chamadas_loss_jitter_pjsua.py      | 66     | 2.1          | 2025-04-26 14:54:28
+gerar_chamadas_loss_pjsua.py             | 75     | 2.6          | 2025-04-26 14:54:28
+gerar_chamadas_loss_pjsua_1.py           | 74     | 2.8          | 2025-04-26 14:54:28
+gerar_chamadas_melhorado.py              | 72     | 2.7          | 2025-04-26 14:54:28
+gerar_chamadas_pjsua.py                  | 63     | 1.8          | 2025-04-26 14:54:28
+gerar_chamadas_real.py                   | 106    | 3.6          | 2025-04-26 14:54:28
+gerar_chamadas_realista.py               | 103    | 3.3          | 2025-05-05 08:58:37
+gerar_chamadas_variadas_pjsua.py         | 85     | 2.6          | 2025-04-27 11:05:22
+
+=== Similaridade (0–100%) ===
+
+Análise concluída.

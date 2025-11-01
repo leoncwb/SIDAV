@@ -1,0 +1,48 @@
+Safe Validation started at dom 26 out 2025 15:06:39 -03
+
+=== PYTHON SYNTAX CHECK (py_compile) ===
+Checking ./main.py ... OK
+Checking ./modules/avaliar_isolation_forest.py ... OK
+Checking ./modules/avaliar_modelos_supervisionados.py ... OK
+Checking ./modules/avaliar_regra_simples.py ... OK
+Checking ./modules/brute_force_sipvicious.py ... OK
+Checking ./modules/enum_ramal_sipvicious.py ... OK
+Checking ./modules/executar_teste_flood_e_grafico.py ... OK
+Checking ./modules/extrair_metricas_chamadas.py ... OK
+Checking ./modules/flood_register_sipp.py ... OK
+Checking ./modules/flood_sip_socket_02.py ... OK
+Checking ./modules/flood_sip_socket.py ... OK
+Checking ./modules/flood_sip_socket_real.py ... OK
+Checking ./modules/gerar_chamadas_jitter_pjsua.py ... OK
+Checking ./modules/gerar_chamadas_loss_jitter_pjsua.py ... OK
+Checking ./modules/gerar_chamadas_loss_pjsua_1.py ... OK
+Checking ./modules/gerar_chamadas_loss_pjsua.py ... OK
+Checking ./modules/gerar_chamadas_melhorado.py ... OK
+Checking ./modules/gerar_chamadas_pjsua.py ... OK
+Checking ./modules/gerar_chamadas_realista.py ... OK
+Checking ./modules/gerar_chamadas_real.py ... OK
+Checking ./modules/gerar_chamadas_variadas_pjsua.py ... OK
+Checking ./modules/gerar_graficos_cpu_antes_durante.py ... OK
+Checking ./modules/hijack_register_multiple.py ... OK
+Checking ./modules/isolation_forest_voip.py ... OK
+Checking ./modules/monitorar_ataque_sip.py ... OK
+Checking ./modules/plot_matriz_confusao.py ... OK
+Checking ./modules/plot_tsne.py ... OK
+Checking ./modules/results/grafico_chamadas_com_metricas.py ... OK
+Checking ./modules/simular_10000_chamadas.py ... OK
+Checking ./modules/simular_chamadas_10000.py ... OK
+Checking ./modules/spoof_invite_scapy.py ... OK
+Checking ./modules/treinar_isolation_forest.py ... OK
+Checking ./modules/tsne_isolation_forest.py ... OK
+Checking ./modules/tsne_regra_simples.py ... OK
+Checking ./results/gerar_grafico_cpu.py ... OK
+Checking ./results/gerar_grafico_cpu_spoof_scapy.py ... OK
+Checking ./results/gerar_grafico_spoof_colorido.py ... OK
+Checking ./results/gerar_grafico_spoof_final.py ... OK
+
+=== STATIC LINT (ruff if available, else pyflakes fallback) ===
+No ruff/pyflakes installed. Skipping static lint (install ruff for better checks).
+
+Large python files (>300 lines):
+
+Safe Validation finished at dom 26 out 2025 15:06:47 -03

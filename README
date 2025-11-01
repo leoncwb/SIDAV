@@ -1,0 +1,104 @@
+# VoIP Pentest Tool
+
+Ferramenta para simulação de ataques VoIP e geração de chamadas SIP para análise de anomalias.
+
+## Estrutura do Projeto
+
+```
+voip_pentest_tool/
+├── main.py
+├── modules/
+│   ├— enum_ramal_sipvicious.py
+│   ├— brute_force_sipvicious.py
+│   ├— flood_sip_socket.py
+│   ├— hijack_register_multiple.py
+│   ├— spoof_invite_scapy.py
+│   ├— gerar_chamadas_real.py
+│   ├— isolation_forest_voip.py
+│   ├— results/
+│   └— __pycache__/
+├── utils/
+├── results/
+└── wordlist.txt
+```
+
+## Como Usar
+
+1. Navegue até a raiz do projeto:
+
+```bash
+cd voip_pentest_tool
+```
+
+2. Execute o script principal `main.py`, informando o ataque desejado:
+
+```bash
+python3 main.py <ataque>
+```
+
+### Opções Disponíveis de Ataque/Simulação
+
+| Opção      | Descrição |
+|--------------|-----------|
+| enum         | Enumeração de ramais SIP usando SIPVicious |
+| brute        | Ataque de força bruta a extensões SIP |
+| flood        | Flood de pacotes SIP INVITE não autenticados |
+| hijack       | Ataque de hijacking de registro SIP (REGISTER) |
+| spoof        | Envio de pacotes INVITE spoofados (Scapy) |
+| chamadas     | Simulação de 1000 chamadas reais para coleta de métricas |
+| isolation    | Treinamento e visualização do Isolation Forest |
+
+### Exemplos
+
+- Enumeração de ramais SIP:
+
+```bash
+python3 main.py enum
+```
+
+- Ataque de brute-force:
+
+```bash
+python3 main.py brute
+```
+
+- Envio de chamadas SIP para geração de dataset:
+
+```bash
+python3 main.py chamadas
+```
+
+- Treinamento e visualização do modelo Isolation Forest:
+
+```bash
+python3 main.py isolation
+```
+
+## Requisitos
+
+- Python 3
+- Bibliotecas:
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - scapy
+
+Instalação rápida:
+
+```bash
+pip3 install pandas scikit-learn matplotlib seaborn scapy
+```
+
+
+## Observação
+
+Esta ferramenta é voltada para fins de pesquisa científica e educacional, simulando cenários controlados de ataque para fins de estudo em segurança VoIP.
+
+**Use sempre em ambientes de teste autorizados.**
+
+---
+
+Desenvolvido por Leonardo R. Pereira - UTFPR
+
+---

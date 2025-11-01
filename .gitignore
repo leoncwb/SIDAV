@@ -1,0 +1,39 @@
+# Byte-compiled / caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenvs
+venv/
+ENV/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and runtime
+*.log
+logs/
+*.csv
+*.sqlite
+*.db
+
+# Data / outputs (do not version)
+data/
+outputs/
+results/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# misc
+tall --upgrade pip
+*.pem
