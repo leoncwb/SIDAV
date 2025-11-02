@@ -37,3 +37,15 @@ dist/
 # misc
 tall --upgrade pip
 *.pem
+# não versionar resultados e pcaps gerados por experimentos
+experiments/*/pcaps/
+experiments/*/raw/
+experiments/*/runs/
+experiments/*/logs/
+experiments/*/metrics/
+results/
+*.pcap
+*.pcapng
+*.csv
+__pycache__/
+*.pyc
