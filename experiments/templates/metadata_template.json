@@ -1,0 +1,11 @@
+{
+  "attack": "<attack_name>",
+  "target": "<ip>",
+  "start_time": "<ISO timestamp>",
+  "end_time": "<ISO timestamp>",
+  "duration_s": 0,
+  "script_cmdline": "<comando exato usado>",
+  "pjsua_version": "<versão>",
+  "sipp_version": "<versão>",
+  "notes": ""
+}
